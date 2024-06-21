@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습문제3</title>
+</head>
+  <body>
+    <h3>회원 가입 양식</h3>
+    <from>
+      <table>
+        <tr>
+          <td><label for="id">- 아이디</label></td>
+          <td><input type="text" id="id" autofocus required></td>
+        </tr>
+        <tr>
+          <td><label for="pw">- 비밀번호</label></td>
+          <td><input type="password" id="pw" required></td>
+        </tr>
+        <tr>
+          <td><label for="pw2">- 비밀번호 확인</label></td>
+          <td><input type="password" id="pw2" required></td>
+        </tr>
+        <tr>
+          <td><label for="name">- 이름</label></td>
+          <td><input type="text" id="name" required></td>
+        </tr>
+        <tr>
+          <td><label for="s">- 성별</label></td>
+          <td><input type="radio" name="s" required>여성<input type="radio" name="s" required>남성</td>
+        </tr>
+        <tr>
+          <td><label for="tel">- 전화번호</label></td>
+          <td>
+            <select name="tel" id="tel">
+              <option value="su">02</option>
+              <option value="kk">031</option>
+              <option value="inc">032</option>
+              <option value="a">033</option>
+              <option value="b">041</option>
+              <option value="c">042</option>
+              <option value="d">043</option>
+              <option value="e">051</option>
+              <option value="f">052</option>
+              <option value="f">053</option>
+              <option value="f">054</option>
+              <option value="f">055</option>
+              <option value="f">061</option>
+              <option value="f">062</option>
+              <option value="f">063</option>
+              <option value="f">064</option>
+            </select> -
+            <input type="tel" id="tel"maxlength="4"> -
+            <input type="tel" id="tel"maxlength="4">
+          </td>
+        </tr>
+        <tr>
+          <td><label for="umail">- 이메일</label></td>
+          <td>
+            <input type="text" id="umail" required> @ 
+            <select name="" id="" >
+              <option value="chk" selected>선택</option>
+              <option value="naver">naver.com</option>
+              <option value="daum">daum.net</option>
+              <option value="gmail">gmail.com</option>
+              <option value="em1">email(1)</option>
+              <option value="em2">email(2)</option>
+
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="sf" required>- 자기소개</label></td>
+          <td><textarea type="memo" id="sf" cols="50" rows="10"></textarea></td>
+        </tr>
+      </table>
+    </from>
+  </body>
+</html>

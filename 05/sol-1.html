@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습문제</title>
+  <style>
+    #container{
+      width: 520px;
+      border: 1px solid black;
+      padding: 20px 40px;
+      margin: 0 auto;
+    }
+    ul{
+      list-style-type: none;
+    }
+    li{
+      line-height: 50px;
+    }
+    label{
+      width: 60;
+      float: left;
+      
+    }
+
+  </style>
+</head>
+<body>
+  <fieldset id="container">
+    <h1>예약 정보</h1>
+    <ul>
+      <li>
+        <label for="name">이 름</label>
+        <input type="text" id="name" autofocus required>
+      </li>
+      <li>
+        <label for="tel">전 화</label>
+        <input type="tel" id="tel" required>
+      </li>
+      <li>
+        <label for="umail">이메일</label>
+        <input type="email" id="umail" required>
+      </li>
+      <div>
+        <input type="submit" value="예약하기">
+      </div>
+    </ul>
+  </fieldset>
+</body>
+</html>
